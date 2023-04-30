@@ -1,5 +1,13 @@
 .main {
   background: rgb(196, 122, 227);
   max-width: 1200px;
+  min-height: 100vh;
   margin: 0 auto;
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: start;
+  align-content: start;
+  row-gap: 1rem;
 }

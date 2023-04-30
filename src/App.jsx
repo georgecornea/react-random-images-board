@@ -4,11 +4,7 @@ import './App.css';
 import { RandomPhotosBoard } from './project-files/components/RandomPhotosBoard';
 
 function App() {
-  return (
-    <>
-      <RandomPhotosBoard>Random Board</RandomPhotosBoard>
-    </>
-  );
+  return <RandomPhotosBoard />;
 }
 
 export default App;
