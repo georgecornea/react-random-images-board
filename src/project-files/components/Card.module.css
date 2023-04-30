@@ -1,0 +1,148 @@
+.cards_item {
+  display: flex;
+  padding: 1rem;
+}
+
+.card {
+  border-radius: 0.25rem;
+  box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: 400;
+  text-align: center;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+  vertical-align: middle;
+  cursor: grab;
+}
+
+.btn {
+  padding: 0.8rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 400;
+  display: inline-block;
+  cursor: pointer;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: #f0f0f0;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    /* width: 50%; */
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    /* width: 33.3333%; */
+  }
+}
+
+.card_content {
+  display: flex;
+  gap: 0.5rem;
+  font-size: large;
+  padding: 1rem;
+  background: rgb(141, 133, 133);
+}
+
+.card_title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  margin: 0px;
+}
+
+.card_text {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  margin-bottom: 1.25rem;
+  font-weight: 400;
+}
+
+.image_size_150 {
+  height: 150px;
+  width: 150px;
+}
+
+.image_size_160 {
+  height: 160px;
+  width: 160px;
+}
+
+.image_size_170 {
+  height: 170px;
+  width: 170px;
+}
+
+.image_size_180 {
+  height: 180px;
+  width: 180px;
+}
+
+.image_size_190 {
+  height: 190px;
+  width: 190px;
+}
+
+.image_size_200 {
+  height: 200px;
+  width: 200px;
+}
+
+.image_size_210 {
+  height: 210px;
+  width: 210px;
+}
+
+.image_size_220 {
+  height: 220px;
+  width: 220px;
+}
+
+.image_size_230 {
+  height: 230px;
+  width: 230px;
+}
+
+.image_size_240 {
+  height: 240px;
+  width: 240px;
+}
+
+.image_size_250 {
+  height: 250px;
+  width: 250px;
+}
+
+.temp_card {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.9;
+}
+
+.temp_card .card {
+  border: 2px solid #000;
+}
