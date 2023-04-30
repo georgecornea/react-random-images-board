@@ -8,11 +8,11 @@ export const Card = ({ imageUrl, id, size }) => {
 
   return (
     <li className={styles.cards_item} id={id}>
-      <div className='card'>
+      <div className={styles.card}>
         <div className=''>
-          <img src={imageUrl} alt='' className={`image_size_${size}`} />
+          <img src={imageUrl} alt='' className={styles[`image_size_${size}`]} />
         </div>
-        <div className='card_content'>
+        <div className={styles.card_content}>
           <button
             className='left'
             id={id}
